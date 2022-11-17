@@ -1,0 +1,128 @@
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+#header{
+    background: #161D2F;
+    padding: 20px 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.menuA{
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.header-btn{
+    background: linear-gradient(97.1deg, #3043A9 11.99%, #1F629F 96.6%);
+    border-radius: 28px;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border: none;
+}
+#hero{
+    background: #161D2F;
+}
+.hero-desc{
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-top: 40px;
+}
+.hero-title{
+    font-size: 62px;
+    line-height: 150%;
+     text-align: center;
+    color: #FFFFFF;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero-subtitle{
+    font-size: 15px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 40px 0;
+}
+.btn-join{
+    background: linear-gradient(97.1deg, #3043A9 11.99%, #1F629F 96.6%);
+    border-radius: 28px;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 15px;
+}
+.btn-contact{
+    border: 1px solid #FFFFFF;
+    border-radius: 28px;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    background: none;
+}
+.hero-imgg{
+    : rgba(0, 0, 0, 0.4);
+
+}
+.btn-join:focus{
+
+    transform: translateY(20px);
+}
+.btn-join:hover{
+    background: rebeccapurple;
+    transform: rotate3d(1,1,1,1turn);
+}
+.pley{
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 440px;
+    top: 250px;
+}
+.icon{
+    color: white;
+    font-size: 40px;
+
+}
+.img-block{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    padding-bottom: 60px;
+}
+.img-block img{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
